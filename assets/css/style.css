@@ -1,0 +1,142 @@
+.carousel-inner > .item > img {
+	margin: 0 auto;
+}
+
+.carousel-caption {
+    right: 19%;
+    left: 19%;
+
+}
+
+.navbar {
+	border: none;
+	border-top: 23px solid transparent;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse {
+	background-image: none;
+	background-color: #00539b;
+	border-color: #f47d30;
+
+}
+
+.dropdown-menu>li>a {
+	color: #f47d30;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+background-image: none;
+    background-color: #00539b;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #f47d30;
+    background-image: linear-gradient(to bottom,#FFF 0,#f3f3f3 100%);
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    text-shadow: none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #f47d30;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color: #00539b;
+
+}
+
+.panel-default > .panel-heading {
+	background-image: none;
+	background-color: #f47d30;
+	font-weight: bold;
+	color: #00539b;
+}
+
+.btn-default {
+	background-image: none;
+	background-color: #f47d30;
+	font-weight: bold;
+	color: #00539b;
+}
+
+.carouselcaption {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	/*width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;*/
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	background-color: #f47d30;
+	padding-top: 15px;
+	padding-bottom: 3px;
+	position: relative;
+	top: 50px;
+}	
+
+.caption {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	/*width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;*/
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	background-color: #f47d30;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	top: -62px;
+	overflow: auto;
+}	
+
+.carousel-control.right {
+	background-image: none;
+	background-color: #00539b;
+}
+
+.carousel-control.left {
+	background-image: none;
+	background-color: #00539b;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("../images/nice_snow.png"); 
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f47d30;
+  border-bottom  : 20px solid #00539b;
+}
+
+.container .text-muted {
+  margin: 10px 0;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+.carousel-caption 
+    right: 19%;
+    left: 19%;
+ }
