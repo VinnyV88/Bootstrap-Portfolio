@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-lg navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><span class="byname"> by Vincent Visconti</span><img id="logo" src="assets/images/ViVi_Web_Logo.svg" alt="Logo"></a>
+                <a class="navbar-brand" href="index.html"><span class="byname byname-lg"> by Vincent Visconti</span><img class="logo logo-lg" src="assets/images/ViVi_Web_Logo_03.svg" alt="Logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -34,60 +34,53 @@
         </div>
     </nav>
 
-	<div class="container">
-		
-		<div class="row">	
-			<div class="col-md-8 margin-bottom-md">
-				<h2>Contact</h2>
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<form>
-							<div class="form-group">
-								<label for="Name">Name</label>
-								<input class="form-control" type="text" id="firstname" placeholder="John Smith">
-							</div>
-							<div class="form-group">
-								<label for="email">Email</label>
-								<input class="form-control" type="email" id="email" placeholder="example@email.com">
-							</div>
-							<div class="form-group">	
-								<label for="message">Message</label>
-								<textarea class="form-control" id="message" rows="10" cols="50" placeholder="Leave a message here..."></textarea>
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-						</form>
-		            </div>
-		        </div>
-		    </div>
-		        <div class="col-md-4">
-			
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							Connect with Me
-						</div>
-						<div class="panel-body">
-							<a href="https://github.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/git_logo.png" alt="Git"></a>
-			                <a href="https://www.linkedin.com/in/vincentvisconti" target="_blank"><img style="width:50px" src="assets/images/linkedin_logo.png" alt="LinkedIn"></a>
-			                <a href="http://stackexchange.com/users/5347903/vincent-visconti" target="_blank"><img style="width:50px" src="assets/images/stackoverflow_icon.png" alt="Stack Overflow"></a>
-			                <a href="https://www.facebook.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/facebook_logo.png" alt="Facebook"></a>
-			                <a href="https://twitter.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/twitter_logo.png" alt="Twitter"></a>
-			                <a href="https://www.instagram.com/vinny88v/" target="_blank"><img style="width:50px" src="assets/images/instagram_logo.png" alt="LinkedIn"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</div>
+    <div class="container">
 
-		<footer class="footer">
-      		<div class="container">
-        		<p class="text-muted text-center">&copy; Copyright 2016 Vincent Visconti</p>
-      		</div>
-    	</footer>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 margin-bottom-md flex-container">
+                <h2>Contact</h2>
+                <div class="row margin-bottom-lg">
+                    <div class="col-md-10 col-md-offset-1">
+                        <form>
+                            <div class="form-group">
+                                <label for="Name">Name</label>
+                                <input class="form-control" type="text" id="firstname" placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control" type="email" id="email" placeholder="example@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="10" cols="50" placeholder="Leave a message here..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-contact">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
 
-	</body>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex-container text-center">
+                <div class="footer-flex-items">
+                    <div class="text-muted copyright footer-flex-item">
+                        &copy; Copyright 2016-2017 Vincent Visconti
+                    </div>
+                    <div class="footer-connect footer-flex-item">
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/header.js"></script>
+
+</body>
 
 </html>

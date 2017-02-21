@@ -9,12 +9,12 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-lg navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><span class="byname"> by Vincent Visconti</span><img id="logo" src="assets/images/ViVi_Web_Logo.svg" alt="Logo"></a>
+                <a class="navbar-brand" href="index.html"><span class="byname byname-lg"> by Vincent Visconti</span><img class="logo logo-lg" src="assets/images/ViVi_Web_Logo_03.svg" alt="Logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -34,77 +34,36 @@
         </div>
     </nav>
 
-	<div class="container">
-		
-		<div class="row">	
-			<div class="col-md-8 margin-bottom-md">
-				<h2>Portfolio</h2>
-				<div class="row">
-					<div class="col-md-6">
-						<a href="https://hangman-breaking-bad.herokuapp.com/" target="_blank">
-						<img class="img-responsive" style="width:385px" src="assets/images/hangman385x257.png" alt="Hangman">
-						</a>
-						<div class="caption">Hangman</div>
-		            </div>
-		            <div class="col-md-6">
-						<a href="https://star-wars-rpg-vmv.herokuapp.com/" target="_blank">
-						<img class="img-responsive" style="width:385px" src="assets/images/Star_Wars385x257.png" alt="Star Wars RPG Game">
-						</a>
-						<div class="caption">Star Wars RPG Game</div>
-		            </div>
-		        </div>
-		        <div class="row">
-					<div class="col-md-6">
-						<a href="https://wwe-trivia-game.herokuapp.com/" target="_blank">
-						<img class="img-responsive" style="width:385px" src="assets/images/wweTrivia385x257.png" alt="Trivia Game">
-						</a>
-						<div class="caption">Trivia Game</div>
-		            </div>
-		            <div class="col-md-6">
-						<a href="http://ulti-road-trip-planner.herokuapp.com/" target="_blank">
-						<img class="img-responsive" style="width:385px" src="assets/images/urtp385x257.png" alt="Ulitmate Road Trip Planner">
-						</a>
-						<div class="caption">Ulitmate Road Trip Planner</div>
-		            </div>
-		        </div>
-		        <div class="row">
-					<div class="col-md-6">
-						<a href="https://traintracker-d4450.firebaseapp.com/" target="_blank">
-						<img class="img-responsive" style="width:100%" src="assets/images/trainTracker385x257.png" alt="Train Tracker">
-						</a>
-						<div class="caption">Firebase Train Tracker</div>
-		            </div>
-		        </div>
-		    </div>
-		        <div class="col-md-4">
-			
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							Connect with Me
-						</div>
-						<div class="panel-body">
-							<a href="https://github.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/git_logo.png" alt="Git"></a>
-			                <a href="https://www.linkedin.com/in/vincentvisconti" target="_blank"><img style="width:50px" src="assets/images/linkedin_logo.png" alt="LinkedIn"></a>
-			                <a href="http://stackexchange.com/users/5347903/vincent-visconti" target="_blank"><img style="width:50px" src="assets/images/stackoverflow_icon.png" alt="Stack Overflow"></a>
-			                <a href="https://www.facebook.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/facebook_logo.png" alt="Facebook"></a>
-			                <a href="https://twitter.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/twitter_logo.png" alt="Twitter"></a>
-			                <a href="https://www.instagram.com/vinny88v/" target="_blank"><img style="width:50px" src="assets/images/instagram_logo.png" alt="LinkedIn"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</div>
+    <div class="container">
 
-		<footer class="footer">
-      		<div class="container">
-        		<p class="text-muted text-center">&copy; Copyright 2016 Vincent Visconti</p>
-      		</div>
-    	</footer>
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-md">
+                <div class="port-well">
+                </div>
+            </div>
+        </div>
 
-	</body>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex-container text-center">
+                <div class="footer-flex-items">
+                    <div class="text-muted copyright footer-flex-item">
+                        &copy; Copyright 2016-2017 Vincent Visconti
+                    </div>
+                    <div class="footer-connect footer-flex-item">
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/header.js"></script>
+
+</body>
 
 </html>

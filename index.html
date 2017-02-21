@@ -9,12 +9,12 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-lg navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><span class="byname"> by Vincent Visconti</span><img id="logo" src="assets/images/ViVi_Web_Logo.svg" alt="Logo"></a>
+                <a class="navbar-brand" href="index.html"><span class="byname byname-lg"> by Vincent Visconti</span><img class="logo logo-lg" src="assets/images/ViVi_Web_Logo_03.svg" alt="Logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -33,56 +33,61 @@
             </div>
         </div>
     </nav>
-	
-	
-	<div class="container">
-		
-		<div class="row">	
-			<div class="col-md-8">
-				<h2>About Me</h2>
-				<div class="row margin-bottom-lg">
-					<div class="col-md-3 margin-bottom-md">
-						<img style="width:100%" id="bioimage" src="assets/images/ProPic.jpg" alt="Profile Pic">
-					</div>
-					<div class="col-md-9 text-justify">
-						<p>Hello, and welcome to my page! My name is Vincent Visconti. I was born and raised in Brooklyn, NY. Since 2001, I've lived in New Jersey. Sayreville, NJ is where I currently live with my beautiful wife, Ana, and our handsome son, Jason, who is three years old.</p>
-		                <p>I currently work as a computer programmer for <a class="LinkContent" href="http://www.sound-recording.org" target="_blank">Sound Recording Special Payments Fund</a>, a non-profit fund that collects money from major record labels and then distributes payments to musicians annually, similar to royalties, but with a formula that benefits common musicians whose only requirement would be that they recorded music for a record company covered under our agreement.</p>
-		                <p>When I'm not working, or spending quality time with my family, I enjoy rooting for my favorite childhood sports teams. Well, enjoy might be too nice a word to describe how I feel when I watch games. See, I'm what NY area sports fans call a JIM. A <a class="LinkContent" href="http://www.newyorkjets.com/" target="_blank">Jets</a>, <a class="LinkContent" href="https://www.nhl.com/islanders" target="_blank">Islanders</a>, and <a class="LinkContent" href="http://newyork.mets.mlb.com/index.jsp?c_id=nym" target="_blank">Mets</a> fan. These teams have done much to torture their fans over the years. There are (or should be) support groups for these fans. To be a fan of these teams, you would have to be incredibly passionate and loyal to them or you would have dropped them years ago. The worst thing any of these teams can do to their fans is give them hope. Because as soon as they do, they rip your heart out. My wife thinks I'm a little crazy how I let these teams affect me, and she probably has a point. But when you're passionate about something, you have to go all in.</p>
-		                <p>Same goes with anything in life. It's what brought me to where I am today, taking a web development coding bootcamp at Rutgers. After over 15 years of being a computer programmer, working mostly on legacy systems written in COBOL, I decided to modernize my skills. I've dabbled with web development in the past and was able to hack my way to maintaining my company's website using HTML, CSS, and PHP. But it's time to go all in and learn it all the right way, soup to nuts! I'm definitely looking forward to the challenge.</p>
-		            </div>
-		        </div>
-		    </div>
-		        <div class="col-md-4">
-			
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							Connect with Me
-						</div>
-						<div class="panel-body">
-							
-							<a href="https://github.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/git_logo.png" alt="Git"></a>
-	                		<a href="https://www.linkedin.com/in/vincentvisconti" target="_blank"><img style="width:50px" src="assets/images/linkedin_logo.png" alt="LinkedIn"></a>
-	                		<a href="http://stackexchange.com/users/5347903/vincent-visconti" target="_blank"><img style="width:50px" src="assets/images/stackoverflow_icon.png" alt="Stack Overflow"></a>
-	                  		<a href="https://www.facebook.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/facebook_logo.png" alt="Facebook"></a>
-	                		<a href="https://twitter.com/VinnyV88" target="_blank"><img style="width:50px" src="assets/images/twitter_logo.png" alt="Twitter"></a>
-	                		<a href="https://www.instagram.com/vinny88v/" target="_blank"><img style="width:50px" src="assets/images/instagram_logo.png" alt="LinkedIn"></a>
-			                
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</div>
 
-		<footer class="footer">
-      		<div class="container">
-        		<p class="text-muted text-center">&copy; Copyright 2016 Vincent Visconti</p>
-      		</div>
-    	</footer>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div class="container">
 
-	</body>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 flex-container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row  margin-bottom-md">
+                    <div class="col-md-12 text-center bio-pic-backgrd">
+                        <img id="bioimage" src="assets/images/ProPic.jpg" alt="Profile Pic">
+                    </div>
+                </div>
+
+                <div class="row margin-bottom-lg">
+                    <div class="col-md-12 text-justify">
+                        <p>Hey, my name is Vincent and I’m a web developer with a ton of experience in computer and database programming.</p>
+                        <p>For the past 15+ years, I’ve been responsible for the full development life cycle of a legacy business application written in COBOL. Over the years, I’ve implemented SQL techniques to more efficiently access and process data. An
+                            example of this is there were COBOL programs written, with hundreds of lines of code, to read through a file, retrieve related data from several other files and combine the data to create an output file. You can easily replace
+                            these types of programs with a single SQL statement, that joins and summarizes the data and outputs the same data in the necessary format.</p>
+                        <p>I’ve also developed several windows GUI programs using VisualBasic.NET as the front-end program and utilized Microsoft SQL Server and DB2 for i as back-end databases.</p>
+                        <p>In addition, I also was able to teach myself enough about Linux, PHP and MySQL to make enhancements and fixes to my company’s website that was written by an outside vendor using the LAMP (Linux, Apache, MySQL, PHP) stack.</p>
+                        <p>Another project that I’ve been relied upon for is utilizing Big Data analysis techniques, applied to millions of data records to summarize, join and process the data to create spreadsheets that were then utilized by our auditors
+                            to generate claims, resulting in hundreds of thousands of dollars being paid to us, plus more pending, that otherwise would have been forfeited.</p>
+                        <p>For the past 6 months, I’ve been enrolled in an intensive, full stack web development boot camp provided by Rutgers University. The boot camp enabled me to update my skill set with modern technologies used to create websites, apps
+                            and back end programs. I really enjoyed going through this boot camp as it has opened my eyes to so many possibilities and opportunities to create robust websites and applications and I look forward to continuing down the path
+                            of modern application development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex-container text-center">
+                <div class="footer-flex-items">
+                    <div class="text-muted copyright footer-flex-item">
+                        &copy; Copyright 2016-2017 Vincent Visconti
+                    </div>
+                    <div class="footer-connect footer-flex-item">
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/header.js"></script>
+
+</body>
 
 </html>
