@@ -15,7 +15,7 @@ $(window).scroll(function() {
         // $('.navbar').css('border-top', '23px solid transparent');
         // $('#logo').css('margin', '-64px 0 0px -160px');
         // $('#logo').css('width', '156px');
-        $('.logo').attr('src', 'assets/images/ViVi_Web_Logo_03.svg');
+        $('.logo').attr('src', 'assets/images/ViVi_Web_logo_03.svg');
         $('.byname').removeClass("byname-sm");
         $('.byname').addClass("byname-lg");
         $('.navbar').removeClass("navbar-sm");
