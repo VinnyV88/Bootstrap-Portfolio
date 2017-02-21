@@ -1,8 +1,7 @@
+emergence.init();
+
 $(window).scroll(function() {
     if ($(document).scrollTop() > 50) {
-        // $('.byname').css('top', '11px').css('left', '-81px');
-        // $('.navbar').css('border-top', '50px solid transparent');
-        // $('#logo').css('margin', '-87px 0 0px -160px');
         $('.logo').attr('src', 'assets/images/ViVi_Web_Logo.svg');
         $('.byname').addClass("byname-sm");
         $('.byname').removeClass("byname-lg");
@@ -11,10 +10,6 @@ $(window).scroll(function() {
         $('.logo').addClass("logo-sm");
         $('.logo').removeClass("logo-lg");
     } else {
-        // $('.byname').css('top', '0px').css('left', '0px');
-        // $('.navbar').css('border-top', '23px solid transparent');
-        // $('#logo').css('margin', '-64px 0 0px -160px');
-        // $('#logo').css('width', '156px');
         $('.logo').attr('src', 'assets/images/ViVi_Web_logo_03.svg');
         $('.byname').removeClass("byname-sm");
         $('.byname').addClass("byname-lg");

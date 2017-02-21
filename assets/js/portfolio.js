@@ -40,7 +40,7 @@ var $row;
 
 for (var i = 0; i < portfolio.length; i++) {
 
-    var $div = $('<div>').addClass("col-md-6 portfolio-flex-container");
+    var $div = $('<div>').addClass("col-md-6 portfolio-flex-container").attr("data-emergence", "hidden");
     var $img = $('<img>').addClass('img-responsive link-ani flex-item-port-img').attr('src', portfolio[i].imgSrc).attr('alt', portfolio[i].caption);
     var $a = $('<a>').attr('href', portfolio[i].link).attr('target', '_blank');
     var $caption = $('<div>').addClass('flex-item-caption-hdr').text(portfolio[i].caption);
@@ -59,6 +59,7 @@ for (var i = 0; i < portfolio.length; i++) {
     if ((i % 2) === 0) {
         $row = $('<div>').addClass('row');
         $row.append($div);
+
         //if we have an odd number of portfolio elements and we are 
         //processing the last one, write the div
         if ((portfolio.length - i) === 1) $('.port-well').append($row);
