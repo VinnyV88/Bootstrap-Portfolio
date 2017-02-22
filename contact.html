@@ -42,18 +42,21 @@
                 <h2>Contact</h2>
                 <div class="row margin-bottom-lg">
                     <div class="col-md-10 col-md-offset-1">
-                        <form>
+                        <form id="contact-form" method="post" action="contact.php" role="form">
                             <div class="form-group">
                                 <label for="Name">Name</label>
                                 <input class="form-control" type="text" id="firstname" placeholder="John Smith">
+                                <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
                                 <input class="form-control" type="email" id="email" placeholder="example@email.com">
+                                <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
                                 <textarea class="form-control" id="message" rows="10" cols="50" placeholder="Leave a message here..."></textarea>
+                                <div class="help-block with-errors"></div>
                             </div>
                             <button type="submit" class="btn btn-contact">Submit</button>
                         </form>
@@ -82,6 +85,8 @@
     <script src="assets/emergence/emergence.js"></script>
     <script src="assets/js/footer.js"></script>
     <script src="assets/js/header.js"></script>
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/contact.js"></script>
 
 </body>
 
