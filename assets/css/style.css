@@ -25,9 +25,9 @@
 .portfolio-flex-container[data-emergence=hidden] {
     opacity: 0;
 }
+
 .portfolio-flex-container[data-emergence=visible] {
     opacity: 1;
-
 }
 
 .logo-lg {
@@ -342,7 +342,7 @@ body {
 .footer-flex-item-logo {
     width: 41px;
     padding: 5px;
-    filter: invert(100%);
+    /*filter: invert(100%);*/
 }
 
 .footer-flex-item {
