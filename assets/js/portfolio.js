@@ -33,6 +33,13 @@ var portfolio = [
         caption: "Firebase Train Tracker",
         githubLink: "https://github.com/VinnyV88/fbTrainTracker#train-tracker",
         synopsis: "The Train Tracker app allows visitors to view train schedule information of trains that were entered by users. Registered and login users have the ability to enter new train information, edit or delete existing trains. Next arriving train information is updated every minute, as indicated by the flip clock. Users have the option to register and login with either their Google or Github accounts."
+    },
+    friendFinder = {
+        link: "https://vivi-friend-finder.herokuapp.com/",
+        imgSrc: "assets/images/FriendFinder385x257.png",
+        caption: "Firebase Train Tracker",
+        githubLink: "https://github.com/VinnyV88/FriendFinder#friendfinder",
+        synopsis: "A compatibility-based 'FriendFinder' application. This full-stack site takes in results of a user survey, then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match."
     }
 ];
 
