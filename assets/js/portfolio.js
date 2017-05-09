@@ -1,4 +1,11 @@
 var portfolio = [
+    miavetrina = {
+        link: "https://mia-vetrina.herokuapp.com/",
+        imgSrc: "assets/images/miavetrina385x257.png",
+        caption: "Hangman",
+        githubLink: "https://github.com/VinnyV88/week-3-game#hangman-breaking-bad-edition",
+        synopsis: "A hangman game that randomly chooses a word or phrase related to AMC's TV series Breaking Bad. You play by guessing letters by pressing letter keys on the keyboard. Letter hits and misses are accompanied by CSS generated animations and sound effects from the show. A GIF and a sound byte related to the word/phrase are played when a word is solved. If you are unable to solve the word/phrase within the alloted guesses, the animated \"hangman\" (Heisenberg) gets hung out to dry."
+    },
     hangman = {
         link: "https://hangman-breaking-bad.herokuapp.com/",
         imgSrc: "assets/images/hangman385x257.png",
@@ -37,7 +44,7 @@ var portfolio = [
     friendFinder = {
         link: "https://vivi-friend-finder.herokuapp.com/",
         imgSrc: "assets/images/FriendFinder385x257.png",
-        caption: "Firebase Train Tracker",
+        caption: "Friend Finder",
         githubLink: "https://github.com/VinnyV88/FriendFinder#friendfinder",
         synopsis: "A compatibility-based 'FriendFinder' application. This full-stack site takes in results of a user survey, then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match."
     }
@@ -53,7 +60,7 @@ for (var i = 0; i < portfolio.length; i++) {
     var $caption = $('<div>').addClass('flex-item-caption-hdr').text(portfolio[i].caption);
     var $captionBody = $('<div>').addClass('flex-item-caption-body').text(portfolio[i].synopsis);
     var $captionLink = $('<div>').addClass('flex-item-caption-button');
-    var $aButton = $('<a>').attr('href', portfolio[i].githubLink).attr('target', '_blank').addClass('caption-button').text("READ MORE");
+    var $aButton = $('<a>').attr('href', portfolio[i].githubLink).attr('target', '_blank').addClass('caption-button').text("Read More on GitHub");
 
     $a.html($img);
     $captionLink.append($aButton);
