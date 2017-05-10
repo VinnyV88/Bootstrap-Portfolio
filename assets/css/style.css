@@ -165,7 +165,7 @@ h4,
 h5,
 h6 {
     color: #00539b;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 
 .panel-default>.panel-heading {
@@ -240,8 +240,11 @@ a>img {
 }
 
 .port-container {
-    padding-top: 30px;
-    padding-left: 95px;
+    padding-left: 85px;
+}
+
+.main-container, .form-control {
+    background-color: #f0f8ff;
 }
 
 .portfolio-flex-container {
@@ -338,7 +341,8 @@ body {
     /*background-color: #f0f8ff;*/
     background-image: url("../images/dark_code_bg.png"); 
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 0 0;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

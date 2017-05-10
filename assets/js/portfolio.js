@@ -2,9 +2,9 @@ var portfolio = [
     miavetrina = {
         link: "https://mia-vetrina.herokuapp.com/",
         imgSrc: "assets/images/miavetrina385x257.png",
-        caption: "Hangman",
-        githubLink: "https://github.com/VinnyV88/week-3-game#hangman-breaking-bad-edition",
-        synopsis: "A hangman game that randomly chooses a word or phrase related to AMC's TV series Breaking Bad. You play by guessing letters by pressing letter keys on the keyboard. Letter hits and misses are accompanied by CSS generated animations and sound effects from the show. A GIF and a sound byte related to the word/phrase are played when a word is solved. If you are unable to solve the word/phrase within the alloted guesses, the animated \"hangman\" (Heisenberg) gets hung out to dry."
+        caption: "MIΛ VETRINΛ",
+        githubLink: "https://github.com/VinnyV88/impulso#impulso",
+        synopsis: "A web app that allows users to design virtual rooms for multiple purposes. As an artist, to display your artwork in a virtual showroom. As a home-owner, to design a new interior project with artwork, furniture/decors, paint color. As a furniture company, to allow users to try your furniture in their virtually  room prior to purchase. As a realtor, to virtual furnish and decorate images of vacant rooms."
     },
     hangman = {
         link: "https://hangman-breaking-bad.herokuapp.com/",
