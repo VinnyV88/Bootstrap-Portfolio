@@ -30,7 +30,7 @@ var portfolio = [
     mongoNews = {
         link: "https://mong-oh-cheerio.herokuapp.com/",
         imgSrc: "assets/images/mongo-news385x257.png",
-        caption: "Mongo-Oh-Cheerio News",
+        caption: "Mong-Oh-Cheerio News",
         githubLink: "https://github.com/VinnyV88/mongo-cheerio-news-scraper#mongo-cheerio-news-scraper",
         synopsis: "An app that lets users leave comments on the latest (web scraped) news using Mongoose, Cheerio, and Express"
     },
