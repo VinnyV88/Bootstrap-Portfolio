@@ -41,7 +41,7 @@
     /* play with these to position the image */
     /*position:absolute;*/
     z-index: 100;
-    width: 190px;
+    width: 227px;
     /*background-color: #fff;*/
     padding: 5px;
 }
@@ -51,7 +51,7 @@
     /* play with these to position the image */
     /*position:absolute;*/
     z-index: 100;
-    width: 156px;
+    width: 190px;
     /*background-color: #fff;*/
     padding: 5px;
 }
@@ -70,14 +70,14 @@
 
 .byname-lg {
     position: relative;
-    top: 61px;
-    left: -81px;
+    top: 66px;
+    left: -80px;
 }
 
 .byname-sm {
     position: relative;
     top: 33px;
-    left: 0px;
+    left: 18px;
 }
 
 .bio-pic-backgrd {
