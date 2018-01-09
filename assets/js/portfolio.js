@@ -1,6 +1,6 @@
 var portfolio = [
     myshowspace = {
-        link: "https://myshowspace.com/",
+        link: "https://www.myshowspace.com/",
         imgSrc: "assets/images/myshowspace385x257.png",
         caption: "My Showspace",
         githubLink: "https://github.com/VinnyV88/virtual-designer#vivid",
