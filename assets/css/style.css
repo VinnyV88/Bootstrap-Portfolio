@@ -36,6 +36,14 @@
     opacity: 1;
 }
 
+#jumbo-hdr {
+    color: #f47d30;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: "Oswald", "San Serif";
+    display: inline;
+  }
+  
+
 .logo-lg {
     /* margin: -37px 0 0px -160px; */
     /* play with these to position the image */
@@ -77,7 +85,7 @@
 .byname-sm {
     position: relative;
     top: 33px;
-    left: 18px;
+    left: 0px;
 }
 
 .bio-pic-backgrd {
