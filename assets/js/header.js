@@ -37,7 +37,7 @@ $(window).scroll(function() {
         { duration: 500, easing: "linear" }
       );
       $(".byname").animate(
-        { width: "show" },
+        { height: "show" },
         { duration: 2000, easing: "linear" }
       );
 
@@ -77,8 +77,8 @@ $(window).scroll(function() {
     // $('.logo').css("height", logoHeight);
     // $('body').css("padding-top", bodyPad);
     $(".byname").animate(
-      { width: "hide" },
-      { duration: 50, easing: "linear" }
+      { height: "hide" },
+      { duration: 10, easing: "linear" }
     );
     $("body").animate(
       { paddingTop: bodyPad },
@@ -94,7 +94,7 @@ $(window).scroll(function() {
       { duration: 2000, easing: "swing" }
     );
     $("#vivid-def").animate(
-      { width: "show" },
+      { height: "show" },
       { duration: 3000, easing: "linear" }
     );
 
