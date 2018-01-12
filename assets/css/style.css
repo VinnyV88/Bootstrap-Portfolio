@@ -243,7 +243,7 @@ a>img {
     animation-iteration-count: 1;
 }
 
-.flex-container {
+/* .flex-container {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -255,20 +255,19 @@ a>img {
     min-height: 200px;
     overflow: hidden;
     margin-bottom: 20px;
-    /*width: 100%;*/
     background-color: #f1f1f1;
     border-radius: 2px;
     box-sizing: border-box;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
-}
+} */
 
 .port-container {
     padding-left: 85px;
 }
 
-.main-container, .form-control {
+/* .main-container, .form-control {
     background-color: #f0f8ff;
-}
+} */
 
 .portfolio-flex-container {
     display: -webkit-flex;
@@ -362,14 +361,14 @@ body {
     padding-top: 120px;
     margin-bottom: 60px;
     /*background-color: #f0f8ff;*/
-    background-image: url("../images/dark_code_bg.png"); 
+    /* background-image: url("../images/dark_code_bg.png"); 
     background-repeat: no-repeat;
     background-position: 0 0;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 
 }
 
