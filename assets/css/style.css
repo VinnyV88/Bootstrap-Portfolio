@@ -1,26 +1,26 @@
-/* .navbar {
+.navbar-ani {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     transition: all 1s;
 }
 
-.navbar-nav {
+.navbar-nav-ani {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     transition: all 1s;
-} */
+}
 
-/* .logo {
+.logo-ani {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     transition: all 1s;
-} */
+}
 
-/* .byname {
+.byname-ani {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     transition: all 1s;
-} */
+}
 
 .portfolio-flex-container {
     -webkit-transition: all 1s;
@@ -43,25 +43,25 @@
     display: inline;
   }
   
-
-.logo-lg {
-    /* margin: -37px 0 0px -160px; */
-    /* play with these to position the image */
-    /*position:absolute;*/
+  .logo {
     z-index: 100;
-    /* width: 227px; */
-    /*background-color: #fff;*/
     padding: 5px;
 }
 
-.logo-sm {
-    /* margin: -40px 0 0px -160px; */
+.logo-lg {
+    margin: -37px 0 0px 0px;
     /* play with these to position the image */
     /*position:absolute;*/
-    z-index: 100;
-    /* width: 190px; */
+    width: 227px;
     /*background-color: #fff;*/
-    padding: 5px;
+}
+
+.logo-sm {
+    margin: -40px 0 0px 0px;
+    /* play with these to position the image */
+    /*position:absolute;*/
+    width: 190px;
+    /*background-color: #fff;*/
 }
 
 .navbar-lg {
@@ -79,12 +79,18 @@
 .byname-lg {
     position: relative;
     top: 66px;
-    left: -80px;
+    left: 80px;
 }
 
 .byname-sm {
     position: relative;
-    top: 73px;
+    top: 34px;
+    left: 177px;
+}
+
+.hm-byname-sm {
+    position: relative;
+    top: 23px;
     left: 177px;
 }
 
@@ -121,6 +127,9 @@
     color: #f47d30;
 }
 
+.navbar-inverse .hm-navbar-nav>.open>a,
+.navbar-inverse .hm-navbar-nav>.open>a:focus,
+.navbar-inverse .hm-navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:focus,
 .navbar-inverse .navbar-nav>.open>a:hover {
@@ -129,6 +138,9 @@
     background-color: #00539b;
 }
 
+.navbar-inverse .hm-navbar-nav>.active>a,
+.navbar-inverse .hm-navbar-nav>.active>a:focus,
+.navbar-inverse .hm-navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
@@ -140,6 +152,7 @@
     -webkit-box-shadow: none;
 }
 
+.navbar-inverse .hm-navbar-nav>li>a,
 .navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
 }
@@ -149,11 +162,13 @@
     background-color: #f47d30;
 }
 
+/* .hm-navbar-nav-lg, */
 .navbar-nav-lg {
     position: relative;
     top: 55px;
 }
 
+/* .hm-navbar-nav-sm, */
 .navbar-nav-sm {
     position: relative;
     top: 30px;
