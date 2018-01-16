@@ -8,6 +8,9 @@ var hdrWidth = window.innerWidth;
 var vividDefMargin = logoHeight - 50;
 var logoMarginLeft = (hdrWidth - logoWidth) / 2;
 var small = false;
+var mainHeight = window.innerHeight - 90;
+
+$(".main-container").css('min-height', mainHeight);
 
 $(".byname").css('display', 'none');
 $(".hm-logo-lg").css("margin-top", -50);

@@ -36,7 +36,7 @@
     opacity: 1;
 }
 
-#jumbo-hdr {
+#def-hdr {
     color: #f47d30;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-family: "Oswald", "San Serif";
@@ -261,6 +261,63 @@ a>img {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
 } */
 
+.jumbotron-mod {
+    background-color: #f47d30;
+    /* margin-top: 130px; */
+    /* background-image: url("../images/bg_notestile.png"); 
+    background-repeat: repeat; */
+    /* background-image: url("../images/red_sound_wave_med_dark_sm.png"); */
+    /* background-image: url("../images/bg_notestile.png");  */
+    /* background-image: url("../images/studio_dark_sm.png");  */
+    /* background-image: url("../images/studio.png");  */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    z-index: -1;
+    /* background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+  }
+
+  #jumbo-hdr {
+    color: #00539b;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: "Oswald", "San Serif";
+  }
+  
+  .jumbo-txt {
+    /* color: black; */
+    color: white;
+    /* font-family: "Roboto", "San Serif"; */
+    font-family: "Oswald", "San Serif";
+    /* font-family: "Teko", "San Serif"; */
+  }
+  
+  .main-section {
+    background-color: #00539b;
+    width: 100%;
+    height: 270px;
+  }
+
+a:hover {
+  text-decoration: underline;
+}
+
+  
+.main-section>.panel-body>a:link,
+.main-section>.panel-body>a:visited,
+.main-section>.panel-body>a:active {
+  color: white;
+  font-family: "Oswald", "San Serif";
+  font-size: 24px;
+}
+
+.img-icon {
+  height: 160px;
+}
+
 .port-container {
     padding-left: 85px;
 }
@@ -360,16 +417,18 @@ body {
     /* Margin bottom by footer height */
     padding-top: 120px;
     margin-bottom: 60px;
-    /*background-color: #f0f8ff;*/
-    /* background-image: url("../images/dark_code_bg.png"); 
-    background-repeat: no-repeat;
+}
+
+.fixed-bg {
+    background-image: url("../images/dark_code_bg.png"); 
     background-position: 0 0;
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
-
+    background-size: cover;
 }
 
 .footer {
