@@ -155,6 +155,7 @@
 .navbar-inverse .hm-navbar-nav>li>a,
 .navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
+    font-weight: bold;
 }
 
 .navbar-inverse .navbar-toggle:focus,
@@ -174,7 +175,29 @@
     top: 30px;
 }
 
+.vivid-style {
+    color: #f47d30;
+    text-shadow: -1px 0 #00539b, 0 1px #00539b, 1px 0 #00539b, 0 -1px #00539b;
+    font-family: "Century Gothic", "Oswald", "San Serif";
+    font-weight: 900;
+  }  
 
+  .img-circle {
+    border-radius: 50%;
+  }
+  
+  .img-about {
+    text-align: center;
+    width: 200px;
+    border: 3px;
+    color: #909090;
+    font-family: "Dancing Script", "Roboto", "San Serif";
+    font-weight: 900;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
 .h1,
 .h2,
 .h3,
@@ -290,7 +313,7 @@ a>img {
   .jumbo-txt {
     /* color: black; */
     color: white;
-    /* font-family: "Roboto", "San Serif"; */
+    /* font-family: "Comfortaa", "San Serif"; */
     font-family: "Oswald", "San Serif";
     /* font-family: "Teko", "San Serif"; */
   }
@@ -305,7 +328,18 @@ a:hover {
   text-decoration: underline;
 }
 
-  
+.solution-box {
+    background-color: #f47d30;
+    width: 100%;
+    height: 270px;
+  }
+
+  .solution-box-text {
+    color: white;
+    font-family: "Oswald", "San Serif";
+    font-size: 24px;
+  }
+    
 .main-section>.panel-body>a:link,
 .main-section>.panel-body>a:visited,
 .main-section>.panel-body>a:active {
@@ -386,7 +420,7 @@ a:hover {
 }
 
 .caption-button {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Comfortaa", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f47d30;
     font-size: 14px;
     font-weight: bold;
@@ -417,6 +451,8 @@ body {
     /* Margin bottom by footer height */
     padding-top: 120px;
     margin-bottom: 60px;
+    font-family: "Comfortaa", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-weight: bold;
 }
 
 .fixed-bg {
