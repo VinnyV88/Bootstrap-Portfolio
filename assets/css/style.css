@@ -76,6 +76,10 @@
     height: 73px;
 }
 
+.byname {
+    display: none;
+}
+
 .byname-lg {
     position: relative;
     top: 66px;

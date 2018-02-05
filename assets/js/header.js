@@ -1,5 +1,7 @@
 emergence.init();
 
+$(document).ready(function () {
+
 $(window).scroll(function() {
     if ($(document).scrollTop() > 50) {
         $('.logo').attr('src', 'assets/images/ViViD_Web_logo_LLC.svg');
@@ -22,4 +24,6 @@ $(window).scroll(function() {
         $('.logo').removeClass("logo-sm");
         $('.logo').addClass("logo-lg");
     }
+});
+
 });

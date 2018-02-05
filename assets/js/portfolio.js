@@ -1,3 +1,5 @@
+$(document).ready(function () {
+
 var portfolio = [
     myshowspace = {
         link: "https://www.myshowspace.com/",
@@ -64,7 +66,7 @@ var portfolio = [
         synopsis: "The Train Tracker app allows visitors to view train schedule information of trains that were entered by users. Registered and login users have the ability to enter new train information, edit or delete existing trains. Next arriving train information is updated every minute, as indicated by the flip clock. Users have the option to register and login with either their Google or Github accounts."
     },
     trivia = {
-        link: "https://wwe-trivia-game.herokuapp.com/",
+        link: "trivia_game/index.html",
         imgSrc: "assets/images/wweTrivia385x257.png",
         caption: "Trivia Game",
         githubLink: "https://github.com/VinnyV88/TriviaGame#trivia-game-wwewwf-edition",
@@ -107,3 +109,5 @@ for (var i = 0; i < portfolio.length; i++) {
         $('.port-well').append($row);
     }
 };
+
+});

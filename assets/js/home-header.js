@@ -1,5 +1,7 @@
 emergence.init();
 
+$(document).ready(function () {
+
 var hdrHeight = window.innerHeight * 0.6;
 var logoHeight = hdrHeight * 0.8;
 var logoWidth = logoHeight * 2.33;
@@ -112,4 +114,6 @@ $(window).scroll(function() {
 
     small = false;
   }
+});
+
 });
