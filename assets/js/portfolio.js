@@ -80,6 +80,10 @@ var $row;
 for (var i = 0; i < portfolio.length; i++) {
 
     var $div = $('<div>').addClass("col-md-6 portfolio-flex-container").attr("data-emergence", "hidden");
+    var $ovlH2 = $('<h2>').text(portfolio[i].caption);
+    var $ovlP = $('<p>').text(portfolio[i].caption);
+    var $overlay = $('<div>').addClass("portfolio-overlay").append($ovlH2).append($ovlP);
+    // var $imgDiv = $('<div>');
     var $img = $('<img>').addClass('img-responsive link-ani flex-item-port-img').attr('src', portfolio[i].imgSrc).attr('alt', portfolio[i].caption);
     var $a = $('<a>').attr('href', portfolio[i].link).attr('target', '_blank');
     var $caption = $('<div>').addClass('flex-item-caption-hdr').text(portfolio[i].caption);
@@ -88,16 +92,16 @@ for (var i = 0; i < portfolio.length; i++) {
     if (portfolio[i].githubPrivate) var $aButton = $('<a>').attr('href', portfolio[i].githubLink).attr('target', '_blank').addClass('caption-button').text("GitHub is Private");
     else var $aButton = $('<a>').attr('href', portfolio[i].githubLink).attr('target', '_blank').addClass('caption-button').text("Read More on GitHub");
     
-
-    $a.html($img);
     $captionLink.append($aButton);
 
+    $a.html($img);
     $div.append($a);
+    $div.append($overlay);    
     $div.append($caption);
     $div.append($captionBody);
     $div.append($captionLink);
 
-    if ((i % 2) === 0) {
+    if ((i % 3) === 0) {
         $row = $('<div>').addClass('row');
         $row.append($div);
 
