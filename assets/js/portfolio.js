@@ -7,7 +7,7 @@ var portfolio = [
         caption: "My Showspace",
         githubLink: "https://github.com/VinnyV88/virtual-designer#vivid",
         githubPrivate: true,
-        technology: ["HTML5 (Canvas)","Fabric.js (Canvas Management Library)","jQuery","AJAX","Node.js","Express.js","MySQL db"],
+        technology: ["HTML5 (Canvas)","Fabric.js (Canvas Management Library)","jQuery","AJAX","JSON","Node.js","Express.js","MySQL db"],
         synopsis: "A web app that allows users to design virtual rooms for multiple purposes. As an artist, to display your artwork in a virtual showroom. As a home-owner, to design a new interior project with artwork, furniture/decors, paint color. As a furniture company, to allow users to try your furniture in their virtual room prior to purchase. As a realtor, to virtual furnish and decorate images of vacant rooms."
     },
     roadTrip = {
