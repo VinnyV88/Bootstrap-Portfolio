@@ -71,6 +71,9 @@ h6 {
     -webkit-filter: blur(2px);
     filter: blur(2px); }
 
+.demo-link {
+  color: black; }
+
 #def-hdr {
   color: #f47d30;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
