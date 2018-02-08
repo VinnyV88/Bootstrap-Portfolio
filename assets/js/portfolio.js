@@ -82,9 +82,15 @@ for (var i = 0; i < portfolio.length; i++) {
 
     var $div = $('<div>').addClass("col-md-6 portfolio-flex-container").attr("data-emergence", "hidden");
     var $ovlH2 = $('<h2>').text(portfolio[i].caption);
-    var $ovlP = $('<p>').text(portfolio[i].caption);
-    var $overlay = $('<div>').addClass("portfolio-overlay").append($ovlH2).append($ovlP);
-    // var $imgDiv = $('<div>');
+    // var $ovlP = $('<p>').text(portfolio[i].caption);
+    var $ul = $('<ul>');
+    if (portfolio[i].technology) {
+    portfolio[i].technology.forEach(function(tech) {
+        var $li = $('<li>').text(tech);
+        $ul.append($li);
+    });
+    }
+    var $overlay = $('<div>').addClass("portfolio-overlay").append($ovlH2).append($ul);
     var $img = $('<img>').addClass('img-responsive link-ani flex-item-port-img').attr('src', portfolio[i].imgSrc).attr('alt', portfolio[i].caption);
     var $a = $('<a>').attr('href', portfolio[i].link).attr('target', '_blank');
     var $caption = $('<div>').addClass('flex-item-caption-hdr').text(portfolio[i].caption);
