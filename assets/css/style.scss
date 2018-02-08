@@ -63,20 +63,18 @@ h6 {
     text-align: center;
     position: absolute;
     top: 0;
-    top: 0;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 257px;
     background: $bg;
     color: #fff;
     opacity: 0;
-    h2 {
-      padding-top: 10px;
-      font-family: "Droid Serif", serif;
+    ul {
+      padding-top: 20px;
       color: #fff;
     }
     p {
-      font-family: "Julius Sans One", sans-serif;
       color: #fff;
     }
   }
