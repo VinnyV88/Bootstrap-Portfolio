@@ -106,7 +106,7 @@ h6 {
 .navbar-sm {
   border: none;
   /*border-top: 23px solid transparent;*/
-  height: 73px; }
+  height: 100px; }
 
 .byname {
   display: inline-block; }
@@ -145,7 +145,7 @@ h6 {
 .navbar>.container-fluid .navbar-brand {
   margin-left: 150px;
 } */
-.navbar-inverse {
+.navbar-inverse, .navbar-collapse {
   background-image: none;
   background-color: #00539b;
   /*border-color: #f47d30;*/ }
@@ -186,15 +186,7 @@ h6 {
   background-color: #f47d30; }
 
 /* .hm-navbar-nav-lg, */
-.navbar-nav-lg {
-  position: relative;
-  top: 55px; }
-
 /* .hm-navbar-nav-sm, */
-.navbar-nav-sm {
-  position: relative;
-  top: 30px; }
-
 .vivid-style {
   color: #f47d30;
   text-shadow: -1px 0 #00539b, 0 1px #00539b, 1px 0 #00539b, 0 -1px #00539b;
@@ -470,7 +462,13 @@ body {
 
 @media screen and (max-width: 768px) {
   .logo {
-    margin: -44px 0 0px -161px; }
+    margin: -15px 0 0px -15px; }
+
+  .logo-sm {
+    margin: 10px 0 0px -15px; }
+
+  .navbar-toggle {
+    margin: 10px 0 0 0; }
 
   .byname {
     display: none; } }
