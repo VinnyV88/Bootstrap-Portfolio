@@ -2,121 +2,128 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <title>Contact</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech|Oswald|Russo+One|Comfortaa" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech|Oswald|Russo+One|Comfortaa" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-ani navbar-lg navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <span class="byname byname-ani byname-lg"> by Vincent Visconti</span>
-                    <img class="logo logo-ani logo-lg" src="assets/images/ViViD_Web_logo_LLC.svg"
-                        alt="Logo">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-nav-ani navbar-right navbar-nav-lg">
-                    <li>
-                        <a href="index.html">
-                            <span class="glyphicon glyphicon-home"></span> Home</a>
-                    </li>
-                    <li>
-                        <a href="solutions.html">
-                            <span class="glyphicon glyphicon-tasks"></span> Solutions</a>
-                    </li>
+  <nav class="navbar navbar-ani navbar-lg navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <span class="byname byname-ani byname-lg"> by Vincent Visconti</span>
+              <img class="logo logo-ani logo-lg img-responsive" src="assets/images/ViViD_Web_logo_LLC.svg" alt="Logo">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-nav-ani navbar-right navbar-nav-lg">
+              <li>
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span> Home</a>
+              </li>
+              <li>
+                <a href="solutions.html">
+                  <span class="glyphicon glyphicon-tasks"></span> Solutions</a>
+              </li>
 
-                    <!-- <li>
+              <!-- <li>
                         <a href="about.html">
                             <span class="glyphicon glyphicon-user"></span> About</a>
                     </li> -->
-                    <li>
-                        <a href="portfolio.html">
-                            <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
-                    </li>
-                    <li class="active">
-                        <a href="contact.html">
-                            <span class="glyphicon glyphicon-inbox"></span> Contact</a>
-                    </li>
-                </ul>
-            </div>
+              <li>
+                <a href="portfolio.html">
+                  <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
+              </li>
+              <li class="active">
+                <a href="contact.html">
+                  <span class="glyphicon glyphicon-inbox"></span> Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <div class="flex-container">
+  <div class="flex-container">
 
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 margin-bottom-md flex-container main-container">
-                <h2>Contact</h2>
-                <div class="row margin-bottom-lg">
-                    <div class="col-md-8 col-md-offset-1">
-                        <form id="contact-form" method="post" action="assets/php/contact.php" role="form">
-                            <div class="messages"></div>
-                            <div class="form-group">
-                                <label for="name">Name *</label>
-                                <input class="form-control" type="text" name="name" id="name" placeholder="John Smith" required="required" data-error="Name is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email *</label>
-                                <input class="form-control" type="email" name="email" id="email" placeholder="example@email.com" required="required" data-error="A valid Email is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message *</label>
-                                <textarea class="form-control" name="message" id="message" rows="10" cols="50" placeholder="Leave a message here..." required="required"
-                                    data-error="Please, leave a message."></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <button type="submit" class="btn btn-contact">Submit</button>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <br>
-                                    <p class="text-muted">
-                                        <strong>*</strong> These fields are required.</p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 margin-bottom-md flex-container main-container">
+        <h2>Contact</h2>
+        <div class="row margin-bottom-lg">
+          <div class="col-md-8 col-md-offset-1">
+            <form id="contact-form" method="post" action="assets/php/contact.php" role="form">
+              <div class="messages"></div>
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input class="form-control" type="text" name="name" id="name" placeholder="John Smith" required="required" data-error="Name is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input class="form-control" type="email" name="email" id="email" placeholder="example@email.com" required="required" data-error="A valid Email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea class="form-control" name="message" id="message" rows="10" cols="50" placeholder="Leave a message here..." required="required"
+                  data-error="Please, leave a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+              <button type="submit" class="btn btn-contact">Submit</button>
+              <div class="row">
+                <div class="col-md-12">
+                  <br>
+                  <p class="text-muted">
+                    <strong>*</strong> These fields are required.</p>
                 </div>
-            </div>
+              </div>
+            </form>
+          </div>
         </div>
-
+      </div>
     </div>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-flex-container text-center">
-                <div class="footer-flex-items">
-                    <div class="text-muted copyright footer-flex-item">
-                        &copy; Copyright 2017 ViViD Web Solutions LLC
-                    </div>
-                    <div class="footer-connect footer-flex-item">
-                    </div>
-                </div>
-            </div>
-    </footer>
+  </div>
 
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="assets/emergence/emergence.js"></script>
-    <script src="assets/js/footer.js"></script>
-    <script src="assets/js/header.js"></script>
-    <script src="assets/js/validator.js"></script>
-    <script src="assets/js/contact.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-flex-container text-center">
+        <div class="footer-flex-items">
+          <div class="text-muted copyright footer-flex-item">
+            &copy; Copyright 2017 ViViD Web Solutions LLC
+          </div>
+          <div class="footer-connect footer-flex-item">
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="assets/emergence/emergence.js"></script>
+  <script src="assets/js/footer.js"></script>
+  <script src="assets/js/header.js"></script>
+  <script src="assets/js/validator.js"></script>
+  <script src="assets/js/contact.js"></script>
 
 </body>
 

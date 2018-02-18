@@ -185,6 +185,11 @@ h6 {
   /*border-color: #f47d30;*/
 }
 
+.navbar-collapse {
+  margin-top: 50px;
+  /*border-color: #f47d30;*/
+}
+
 .dropdown-menu > li > a {
   color: #f47d30;
 }
@@ -563,7 +568,8 @@ body {
   }
 
   .logo-sm {
-    margin: -5px 0 0px -15px;
+    // margin: -37px 0 0px 0px;
+    width: 227px;
   }
 
   .navbar-toggle {
