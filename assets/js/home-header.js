@@ -14,6 +14,8 @@ $(document).ready(function () {
   var small = false;
   var mainHeight = window.innerHeight - 90;
 
+  $('#vivid-def').removeClass("hidden");
+
   $(".main-container").css('min-height', mainHeight);
 
   $(".byname").css('display', 'none');
@@ -162,6 +164,7 @@ $(document).ready(function () {
   $('nav').removeClass("hm-navbar-lg").addClass("navbar-lg");
   $('.logo').removeClass("hm-logo-lg").addClass("logo-lg").removeAttr("style");
   $('.byname').removeClass("hm-byname-lg").addClass("byname-lg byname-ani");
+  $('#vivid-def').addClass("hidden");
 
   // $(window).scroll(function() {
   //   if ($(document).scrollTop() > 50) {

@@ -106,7 +106,7 @@ h6 {
 .navbar-sm {
   border: none;
   /*border-top: 23px solid transparent;*/
-  height: 100px; }
+  height: 70px; }
 
 .byname {
   display: inline-block; }
@@ -136,6 +136,16 @@ h6 {
   width: 165px;
   margin: 10px; }
 
+.navbar-collapse-mod {
+  float: right; }
+
+.hm-navbar-header {
+  margin-top: 50px; }
+
+.nav-links {
+  position: absolute;
+  top: 0; }
+
 .navbar-inverse .navbar-brand {
   color: white;
   font-family: "Russo One", sans-serif;
@@ -148,10 +158,6 @@ h6 {
 .navbar-inverse, .navbar-collapse {
   background-image: none;
   background-color: #00539b;
-  /*border-color: #f47d30;*/ }
-
-.navbar-collapse {
-  margin-top: 50px;
   /*border-color: #f47d30;*/ }
 
 .dropdown-menu > li > a {
@@ -189,7 +195,6 @@ h6 {
 .navbar-inverse .navbar-toggle:hover {
   background-color: #f47d30; }
 
-/* .hm-navbar-nav-lg, */
 /* .hm-navbar-nav-sm, */
 .vivid-style {
   color: #f47d30;
@@ -471,10 +476,32 @@ body {
   .logo-sm {
     width: 227px; }
 
+  .navbar-collapse {
+    margin-top: 50px; }
+
   .navbar-toggle {
     margin: 10px 0 0 0; }
 
+  .navbar-collapse-mod {
+    margin-top: 100px; }
+
+  .hm-navbar-header {
+    margin-top: 0; }
+
+  .hm-navbar-collapse {
+    margin-top: 0; }
+
+  .navbar-sm {
+    height: 100px; }
+
   .byname {
-    display: none; } }
+    display: none; }
+
+  .portfolio-flex-container {
+    margin-left: 0;
+    margin-right: 0; }
+
+  .port-container {
+    padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

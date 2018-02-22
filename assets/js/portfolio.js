@@ -88,7 +88,7 @@ var $row;
 
 for (var i = 0; i < portfolio.length; i++) {
 
-    var $div = $('<div>').addClass("col-md-6 portfolio-flex-container").attr("data-emergence", "hidden");
+    var $div = $('<div>').addClass("col-md-4 portfolio-flex-container").attr("data-emergence", "hidden");
     // var $ovlH2 = $('<h2>').text(portfolio[i].caption);
     // var $ovlP = $('<p>').text(portfolio[i].caption);
     var $ul = $('<ul>').attr("style", "text-align: left;");
