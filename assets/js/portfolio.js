@@ -13,7 +13,7 @@ var portfolio = [
     roadTrip = {
         link: "road_trip_planner/index.html",
         imgSrc: "assets/images/urtp385x257.png",
-        caption: "Ulitmate Road Trip Planner",
+        caption: "Ultimate Road Trip Planner",
         githubLink: "https://github.com/VinnyV88/Road-Trip-Planner#the-ultimate-road-trip-planner",
         githubPrivate: false,
         technology: ["jQuery","AJAX", "Google Maps API (Direction Services, Places, Autocomplete for Addresses)", "GeoNames API (City/Town Names)", "DarkSkies API (Weather Forecast)", "Bitly API (Directions URL Shortner)"],
