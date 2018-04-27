@@ -11,15 +11,25 @@ $(document).ready(function () {
   var hdrWidth = window.innerWidth;
   var vividDefMargin = logoHeight - 50;
   var logoMarginLeft = (hdrWidth - logoWidth) / 2;
+  var logoMarginTop = $(".logo").css("margin-top");  
   var small = false;
   var mainHeight = window.innerHeight - 90;
 
   $('#vivid-def').removeClass("hidden");
 
+  $('.logo').removeClass("hm-logo-lg");
+
   $(".main-container").css('min-height', mainHeight);
 
-  $(".byname").css('display', 'none');
-  $(".hm-logo-lg").css("margin-top", -50);
+  // $(".byname").css('display', 'none');
+  $(".logo").css("margin-top", -50);
+
+  $(".logo").animate({
+    margin_top: logoMarginTop - 50 + "px"
+  }, {
+    duration: 2000,
+    easing: "swing"
+  });
 
   $(".navbar").animate({
     height: hdrHeight
@@ -35,7 +45,7 @@ $(document).ready(function () {
     easing: "swing"
   });
 
-  $(".logo").css("height", logoHeight);
+  $(".logo").css("height", logoHeight).removeClass("hidden");
   $(".logo").animate({
     height: "show"
   }, {
@@ -43,7 +53,7 @@ $(document).ready(function () {
     easing: "swing"
   });
   $("a.navbar-brand").animate({
-    margin: "0px 0px 0px " + logoMarginLeft + "px"
+    margin: "-30px 0px 0px " + logoMarginLeft + "px"
   }, {
     duration: 2000,
     easing: "swing"
@@ -64,11 +74,19 @@ $(document).ready(function () {
   // $("body").css("padding-top", bodyPad);
 
 
-  $("a.navbar-brand").css("margin", "0px 0px 0px " + logoMarginLeft + "px");
+  // $("a.navbar-brand").css("margin", "0px 0px 0px " + logoMarginLeft + "px");
 
   $(window).scroll(function () {
     if ($(document).scrollTop() > 50 && !small) {
-      $(".byname").addClass("hm-byname-sm");
+
+      // $(".logo").animate({
+      //   margin_top: (logoMarginTop + 50) + "px"
+      // }, {
+      //   duration: 2000,
+      //   easing: "swing"
+      // });
+    
+      // $(".byname").addClass("hm-byname-sm");
 
       $("#vivid-def").animate({
         height: "hide"
@@ -76,12 +94,12 @@ $(document).ready(function () {
         duration: 500,
         easing: "linear"
       });
-      $(".byname").animate({
-        height: "show"
-      }, {
-        duration: 2000,
-        easing: "linear"
-      });
+      // $(".byname").animate({
+      //   height: "show"
+      // }, {
+      //   duration: 2000,
+      //   easing: "linear"
+      // });
 
       $(".navbar").animate({
         height: 73
@@ -115,7 +133,7 @@ $(document).ready(function () {
       bodyPad = hdrHeight + 20;
       hdrWidth = window.innerWidth;
 
-      $(".byname").removeClass("hm-byname-sm");
+      // $(".byname").removeClass("hm-byname-sm");
 
       $(".navbar").animate({
         height: hdrHeight
@@ -124,12 +142,13 @@ $(document).ready(function () {
         easing: "swing"
       });
 
-      $(".byname").animate({
-        height: "hide"
-      }, {
-        duration: 10,
-        easing: "linear"
-      });
+      // $(".byname").animate({
+      //   height: "hide"
+      // }, {
+      //   duration: 10,
+      //   easing: "linear"
+      // });
+
       $("body").animate({
         paddingTop: bodyPad
       }, {
@@ -144,7 +163,7 @@ $(document).ready(function () {
         easing: "swing"
       });
       $("a.navbar-brand").animate({
-        margin: "0px 0px 0px " + logoMarginLeft + "px"
+        margin: "-30px 0px 0px " + logoMarginLeft + "px"
       }, {
         duration: 2000,
         easing: "swing"
@@ -163,7 +182,7 @@ $(document).ready(function () {
 } else {
   $('nav').removeClass("hm-navbar-lg").addClass("navbar-lg");
   $('.logo').removeClass("hm-logo-lg").addClass("logo-lg").removeAttr("style");
-  $('.byname').removeClass("hm-byname-lg").addClass("byname-lg byname-ani");
+  // $('.byname').removeClass("hm-byname-lg").addClass("byname-lg byname-ani");
   $('#vivid-def').addClass("hidden");
 
   // $(window).scroll(function() {
