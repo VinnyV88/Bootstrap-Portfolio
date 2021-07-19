@@ -3,7 +3,9 @@ $(document).ready(function () {
         srspf = {
             link: "https://sound-recording.org/",
             imgSrc: "assets/images/SRSPF770x514.png",
+            imgSrcSm: "assets/images/SRSPF385x257.png",
             caption: "Sound Recording Special Payments Fund",
+            captionSm: "Sound Recording SPF",
             githubLink: "https://sound-recording.org/",
             githubPrivate: true,
             synopsis: "Designed, Developed and Launched a new website application for the Sound Recording Special Payments Fund. The website features public pages that communicate essential information about the Fund. The site also features a private member section that allows the Fund's participants to register for access to maintain their personal information, view documents related to their payments received from the Fund (e.g., statements and tax documents) and also submit electronic forms. The Fund has a private administration section where they can administer their website users, and a Forms Processing system which allows their employees to review and process electronic forms submitted by their users. Participant information is automatically synchronized between the website database and the Fund's backend database, which relieves the Fund of manual intervention for data updates."
@@ -93,10 +95,37 @@ var portfolio = [
     }
 ];
 
+var screenSize;
+if (window.innerWidth > 768) {
+    screenSize = "lg"
+} else {
+    screenSize = "sm"
+};
+
+
 for (var i = 0; i < shipped.length; i++) {
+    var flexContainer;
+    var flexImg;
+    var shippedImg;
+    var flexBody;
+    var cardHeader;
+    
+    if (screenSize === "lg") {
+        flexContainer = "shipped-flex-container";
+        flexImg = "flex-item-shipped-img";
+        flexBody = "flex-item-caption-body-shipped";
+        shippedImg = shipped[i].imgSrc;
+        cardHeader = shipped[i].caption;
+    } else {
+        flexContainer = "shipped-flex-container-sm";
+        flexImg = "flex-item-shipped-img-sm";
+        flexBody = "flex-item-caption-body-shipped-sm";
+        shippedImg = shipped[i].imgSrcSm;
+        cardHeader = shipped[i].captionSm;
+    }
 
     var $shippedLi = $('<li>');
-    var $div = $('<div>').addClass("shipped-flex-container").attr("data-emergence", "hidden");
+    var $div = $('<div>').addClass(flexContainer).attr("data-emergence", "hidden");
     var $ul = $('<ul>').attr("style", "text-align: left;");
     if (shipped[i].technology) {
     shipped[i].technology.forEach(function(tech) {
@@ -105,11 +134,11 @@ for (var i = 0; i < shipped.length; i++) {
     });
     }
     var $overlay = $('<div>').addClass("shipped-overlay").append($ul);
-    var $img = $('<img>').addClass('img-responsive link-ani flex-item-shipped-img').attr('src', shipped[i].imgSrc).attr('alt', shipped[i].caption);
+    var $img = $('<img>').addClass('img-responsive link-ani').addClass(flexImg).attr('src', shippedImg).attr('alt', cardHeader);
     var $a = $('<a>').attr('href', shipped[i].link).attr('target', '_blank');
-    var $demoLink = $('<a>').addClass('demo-link').attr('href', shipped[i].link).attr('target', '_blank').text(shipped[i].caption);
+    var $demoLink = $('<a>').addClass('demo-link').attr('href', shipped[i].link).attr('target', '_blank').text(cardHeader);
     var $caption = $('<div>').addClass('flex-item-caption-hdr').html($demoLink);
-    var $captionBody = $('<div>').addClass('flex-item-caption-body-shipped').text(shipped[i].synopsis);
+    var $captionBody = $('<div>').addClass(flexBody).text(shipped[i].synopsis);
     var $captionLink = $('<div>').addClass('flex-item-caption-button');
     if (shipped[i].githubPrivate) var $aButton = $('<a>').attr('href', shipped[i].githubLink).attr('target', '_blank').addClass('caption-button').text("View the Website");
     else var $aButton = $('<a>').attr('href', shipped[i].githubLink).attr('target', '_blank').addClass('caption-button').text("Read More on GitHub");

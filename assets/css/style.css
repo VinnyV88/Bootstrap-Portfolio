@@ -484,6 +484,44 @@ a:hover {
   overflow: hidden;
 }
 
+.shipped-flex-container-sm{
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 385px;
+  height: 810px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  /* float: left; */
+}
+
+.flex-item-shipped-img-sm {
+  width: 385px;
+  height: 257px;
+}
+
+.flex-item-caption-body-shipped-sm {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #8b8b8b;
+  font-size: 15px;
+  text-align: left;
+  height: 430px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
 .flex-item-port-img {
   width: 385px;
   height: 257px;

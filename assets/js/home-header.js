@@ -181,7 +181,7 @@ $(document).ready(function () {
 
 } else {
   $('nav').removeClass("hm-navbar-lg").addClass("navbar-lg");
-  $('.logo').removeClass("hm-logo-lg").addClass("logo-lg").removeAttr("style");
+  $('.logo').removeClass("hm-logo-lg").addClass("logo-lg").removeAttr("style").removeClass("hidden");
   // $('.byname').removeClass("hm-byname-lg").addClass("byname-lg byname-ani");
   $('#vivid-def').addClass("hidden");
 
